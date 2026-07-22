@@ -6,9 +6,9 @@
 
 ## Project Overview
 
-RentNest is a modern, responsive **Next.js frontend application** for a rental property marketplace. Landlords can list properties, manage availability, and approve or reject rental requests via an intuitive dashboard. Tenants can browse listings with advanced filtering, submit rental requests, and complete secure payments. Admins oversee the entire platform through a comprehensive moderation dashboard. 
+RentNest is a modern, responsive **Next.js application** for a rental property marketplace. Landlords can list properties, manage availability, and approve or reject rental requests via an intuitive dashboard. Tenants can browse listings with advanced filtering, submit rental requests, and complete secure payments. Admins oversee the entire platform through a comprehensive moderation dashboard. 
 
-> 💡 **Note**: This is a **frontend-only** assignment. You will consume a backend API (your own from a previous assignment, a partner's, or a provided mock API).
+> 💡 **Note**: This is a **frontend-only** assignment. You will consume a backend API (your own from a previous assignment).
 
 ---
 
@@ -21,20 +21,6 @@ RentNest is a modern, responsive **Next.js frontend application** for a rental p
 | **Admin** | Platform moderators | Protected admin dashboard, user management tables (ban/unban actions), global platform statistics, content moderation UI. |
 
 > 💡 **Note**: Users select their role during registration. The UI must dynamically adapt based on the authenticated user's role, and routes must be protected using **Next.js Middleware**.
-
----
-
-## 🛠️ Tech Stack
-
-| Technology | Purpose |
-|------------|---------|
-| **Next.js** (App Router) | React Framework, Routing, Server/Client Components |
-| **TypeScript** | Type safety (Mandatory interfaces for all data models) |
-| **Tailwind CSS** | Styling (Shadcn UI, DaisyUI, or custom components allowed) |
-| **React Hook Form + Zod** | Form state management and client-side schema validation |
-| **TanStack Query (React Query)** or **SWR** | Server state management, caching, and data fetching |
-| **NextAuth.js** or **Custom JWT + Middleware** | Authentication state and protected route enforcement |
-| **Stripe.js** or **SSLCommerz JS** | Frontend payment gateway integration |
 
 ---
 
@@ -85,20 +71,6 @@ RentNest is a modern, responsive **Next.js frontend application** for a rental p
 
 ---
 
-## Data Models & State Management
-
-Instead of database tables, your frontend must define strict **TypeScript Interfaces** matching the backend schema. You must manage this data efficiently:
-
-- **`User`**: ID, name, email, role, status (active/banned).
-- **`Property`**: ID, title, description, price, location, category, amenities, landlordId, images.
-- **`RentalRequest`**: ID, propertyId, tenantId, status (pending/approved/rejected/active/completed), dates.
-- **`Payment`**: ID, rentalRequestId, amount, method, provider (Stripe/SSLCommerz), status (pending/completed/failed), transactionId.
-- **`Review`**: ID, propertyId, tenantId, rating, comment.
-
-> 💡 **State Management Rule**: Use **TanStack Query (React Query)** or **SWR** for all server-state data fetching (to handle caching, loading, and error states automatically). Use **Zustand** or **React Context** only for global client-side state (e.g., mobile sidebar toggle, transient UI states).
-
----
-
 ## Flow Diagrams & UI Considerations
 
 ### 🏠 Tenant Journey
@@ -131,24 +103,5 @@ Instead of database tables, your frontend must define strict **TypeScript Interf
 - `COMPLETED` → Gray Badge
 
 ---
-
-## ⚠️ Mandatory Frontend Requirements (Recap)
-
-1. **API Integration Doc**: Provide an `API_INTEGRATION.md` mapping your frontend components to backend endpoints.
-2. **UI Error Handling**: All form errors and API failures must show user-friendly feedback (Toasts, inline errors, Error Boundaries).
-3. **Commits**: 20 meaningful frontend commits (e.g., `feat: add zod validation to login`, `fix: stripe redirect loop`).
-4. **Form Validation**: **Zod + React Hook Form** is mandatory for all inputs.
-5. **Admin Credentials**: Provide working admin credentials for testing.
-6. **Payment UI**: Real Stripe/SSLCommerz frontend flow (redirect to gateway, handle success/cancel routes). Fake "Cash on Delivery" UI is **NOT** accepted.
-
----
-
-## 📦 Submission Checklist
-
-- [ ] Frontend GitHub Repo (with at least 20 meaningful commits)
-- [ ] Live Frontend URL (Deployed on Vercel)
-- [ ] Backend API URL (Documented in README)
-- [ ] Demo Video (3-5 mins, covering all 3 roles, validation, and payment flow)
-- [ ] Admin Credentials (Listed in README)
 
 **Good luck! Build a blazing-fast, accessible, and beautiful Next.js frontend you're proud of.** 🚀
