@@ -1,4 +1,4 @@
-# Assignment 5 - Frontend Project (Next.js)
+# Assignment 5 - Frontend Project 
 
 ## 🔍 Find Your Assignment
 
@@ -60,7 +60,7 @@
 | Frontend GitHub Repo | ✅ |
 | Live Frontend URL (Vercel) | ✅ |
 | Backend API URL (Your own or provided) | ✅ |
-| Demo Video (3-5 min) | ✅ |
+| Demo Video (7-10 min) | ✅ |
 | Admin Credentials | ✅ |
 
 **Example:**
@@ -102,13 +102,13 @@ Admin Password   : admin123
 | **TypeScript** | Type safety (Mandatory) |
 | **Tailwind CSS** | Styling (Shadcn UI, DaisyUI, or custom components allowed) |
 | **React Hook Form + Zod** | Form state management and schema validation |
-| **TanStack Query (React Query)** or **SWR** | Server state management and data fetching |
-| **NextAuth.js** or **Custom JWT Middleware** | Authentication and protected routes |
+| **Fetch**, **TanStack Query (React Query)** or **SWR** | Server state management and data fetching |
+| **Auth.js** or **Custom JWT Middleware** | Authentication and protected routes |
 
 ### Deployment
 | Service | Purpose |
 |---------|---------| 
-| **Vercel** | Frontend application deployment (Recommended) |
+| **Vercel/Render** | Frontend application deployment (Recommended) |
 
 ---
 
