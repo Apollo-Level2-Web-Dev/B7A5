@@ -77,7 +77,7 @@ Admin Password   : admin123
 
 ## 🎥 Video Explanation Guide
 
-**Duration:** 3-5 minutes | **Language:** English or Bengali
+**Language:** English or Bengali
 
 **What to Cover:**
 1. Project overview & Next.js architecture (App Router, folder structure).
