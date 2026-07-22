@@ -39,7 +39,7 @@
 | 4 | Error Handling & Validation | 10% | Zod validation, React Hook Form, UI error boundaries, graceful 404/500 pages |
 | 5 | Core Functionality | 20% | Auth flows (JWT storage, protected routes via Middleware), role-based UI rendering, full CRUD via UI |
 | 6 | Payment Integration | 10% | Frontend payment flow (Stripe Checkout/SSLCommerz redirect), handling success/failure routes, updating UI post-payment |
-| 7 | Video Explanation | 10% | 3-5 min frontend walkthrough video |
+| 7 | Video Explanation | 10% | 7-10 min frontend walkthrough video |
 
 ---
 
@@ -104,6 +104,7 @@ Admin Password   : admin123
 | **React Hook Form + Zod** | Form state management and schema validation |
 | **Fetch**, **TanStack Query (React Query)** or **SWR** | Server state management and data fetching |
 | **Auth.js** or **Custom JWT Middleware** | Authentication and protected routes |
+| **Stripe.js** or **SSLCommerz JS** | Frontend payment gateway integration |
 
 ### Deployment
 | Service | Purpose |
