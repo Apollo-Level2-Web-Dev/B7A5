@@ -47,9 +47,9 @@
 
 | Deadline | Maximum Marks |
 |----------|:-------------:|
-| **July 09, 2026, 11:59 PM** | 60 Marks |
-| **July 10, 2026, 11:59 PM** | 50 Marks |
-| **From July 11, 2026 To July 31, 2026, 11:59 PM** | 30 Marks |
+| **July 27, 2026, 11:59 PM** | 60 Marks |
+| **To be anounced, 11:59 PM** | 50 Marks |
+| **From To be anounced To To be anounced, 11:59 PM** | 30 Marks |
 
 ---
 
