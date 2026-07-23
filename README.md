@@ -33,7 +33,7 @@
 
 | # | Category | Weight | Details |
 |:-:|----------|:------:|---------|
-| 1 | UI/UX Design & Responsiveness | 20% | Modern, clean UI, mobile-first responsive design, loading skeletons, dark/light mode (optional but bonus) |
+| 1 | UI/UX Design & Responsiveness | 20% | Modern, clean UI, mobile-first responsive design, loading skeletons, toast messages, dark/light mode (optional but bonus) |
 | 2 | State Management & Data Fetching | 20% | Proper use of Next.js App Router (Server/Client Components), TanStack Query (or SWR), and global state (Zustand/Context) where appropriate |
 | 3 | Commit History | 10% | 20 meaningful frontend commits with conventional commit standards |
 | 4 | Error Handling & Validation | 10% | Zod validation, React Hook Form, UI error boundaries, graceful 404/500 pages |
@@ -47,9 +47,9 @@
 
 | Deadline | Maximum Marks |
 |----------|:-------------:|
-| **July 27, 2026, 11:59 PM** | 60 Marks |
-| **To be anounced, 11:59 PM** | 50 Marks |
-| **From To be anounced To To be anounced, 11:59 PM** | 30 Marks |
+| **August 1, 2026, 11:59 PM** | 60 Marks |
+| **August 2, 2026, 11:59 PM** | 50 Marks |
+| **After August 2, 11:59 PM** | 30 Marks |
 
 ---
 
@@ -57,11 +57,11 @@
 
 | Item | Required |
 |------|:--------:|
-| Frontend GitHub Repo | ✅ |
-| Live Frontend URL (Vercel) | ✅ |
-| Backend API URL (Your own or provided) | ✅ |
-| Demo Video (7-10 min) | ✅ |
-| Admin Credentials | ✅ |
+| Frontend GitHub Repo |
+| Live Frontend URL (Vercel) |
+| Backend API URL (Your own or provided) |
+| Demo Video (7-10 min) |
+| Admin Credentials |
 
 **Example:**
 ```text
