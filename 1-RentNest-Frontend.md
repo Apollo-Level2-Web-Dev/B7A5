@@ -83,7 +83,7 @@ RentNest is a modern, responsive **Next.js application** for a rental property m
        ↓
 [Payment Success Page] → [Leave Review Form]
 ```
-> **UI Focus**: Show loading spinners during form submission. Use toast notifications for success/failure. Ensure the payment redirect flow handles network drops gracefully.
+> **UI Focus**: Show loading spinners during form submission. Use toast notifications for success/failure.
 
 ### 🏘️ Landlord Journey
 ```text
@@ -93,7 +93,7 @@ RentNest is a modern, responsive **Next.js application** for a rental property m
        ↓
 [Toast Notification: "Request Approved"] → [Tenant can now pay]
 ```
-> **UI Focus**: Use optimistic UI updates or React Query invalidation to instantly reflect status changes in the table without a full page reload.
+> **UI Focus**: Use optimistic UI updates to instantly reflect status changes in the table without a full page reload.
 
 ### 📊 Rental Request Status (UI Badges)
 - `PENDING` → Yellow/Orange Badge
