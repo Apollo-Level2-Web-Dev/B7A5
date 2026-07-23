@@ -10,6 +10,8 @@ RentNest is a modern, responsive **Next.js application** for a rental property m
 
 > 💡 **Note**: This is a **frontend-only** assignment. You will consume a backend API (your own from a previous assignment).
 
+> ⚠️ Note: Consider these requirements as a starting guide. Modify, add, or prune features to align with your implementation strategy.
+
 ---
 
 ## Roles & Permissions
