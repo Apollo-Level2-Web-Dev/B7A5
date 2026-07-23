@@ -9,6 +9,7 @@
 GearUp is a modern, responsive **Next.js application** for a sports and outdoor equipment rental service. Customers can browse available gear, select rental dates, and complete secure payments. Providers manage their gear inventory and fulfill rental orders through an intuitive dashboard. Admins oversee the entire platform through a comprehensive moderation interface. 
 
 > 💡 **Note**: This is a **frontend-only** assignment. You will consume a backend API (your own from a previous assignment).
+
 > ⚠️ Note: Consider these requirements as a starting guide. Modify, add, or prune features to align with your implementation strategy.
 
 ---
