@@ -49,7 +49,9 @@
 |----------|:-------------:|
 | **August 1, 2026, 11:59 PM** | 60 Marks |
 | **August 2, 2026, 11:59 PM** | 50 Marks |
-| **After August 2, 11:59 PM** | 30 Marks |
+| **August 2 to August 23, 2026, 11:59 PM** | 30 Marks |
+
+> **Note:** If you want to join early job placement, you must obtain at least **55 marks** within the August 1 deadline (60 Marks) or **42 marks** within the August 2 deadline (50 Marks).
 
 ---
 
