@@ -33,7 +33,7 @@
 | # | Category | Weight | Details |
 |:-:|----------|:------:|---------|
 | 1 | UI/UX Design & Responsiveness | 20% | Modern, clean UI, mobile-first responsive design, loading skeletons, toast messages, dark/light mode (optional but bonus) |
-| 2 | State Management & Data Fetching | 20% | Proper use of Next.js App Router (Server/Client Components), TanStack Query (or SWR), and global state (Zustand/Context) where appropriate |
+| 2 | State Management & Data Fetching | 20% | Proper use of Next.js App Router (Server/Client Components), Fetch or TanStack Query (or SWR), and global state (Zustand/Context) where appropriate |
 | 3 | Commit History | 10% | 20 meaningful frontend commits with conventional commit standards |
 | 4 | Error Handling & Validation | 10% | Api error, UI error boundaries, graceful 404/500 pages |
 | 5 | Core Functionality | 20% | Auth flows (JWT storage, protected routes via Middleware), role-based UI rendering, full CRUD via UI |
