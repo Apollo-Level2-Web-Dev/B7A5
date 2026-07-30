@@ -35,7 +35,7 @@ FixItNow is a modern, responsive **Next.js application** for a home services mar
 - **Loading & Error States**: Skeleton loaders for data fetching and graceful `error.tsx` fallbacks.
 
 ### Customer Features
-- **Auth Flows**: Registration and login forms with Zod validation and inline error messages.
+- **Auth Flows**: Registration and login forms with validation error messages.
 - **Booking Flow**: Interactive UI to select a service, choose a technician, and pick an available time slot. 
 - **Payment Integration**: Seamless redirect to **Stripe Checkout** or **SSLCommerz** gateway after the technician accepts the booking. Dedicated `/payment/success` and `/payment/cancel` pages.
 - **Customer Dashboard**: View booking history (with status badges and a "Cancel" button for eligible bookings), payment history table, and a form to leave reviews after job completion.
