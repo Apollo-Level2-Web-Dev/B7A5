@@ -35,7 +35,7 @@ RentNest is a modern, responsive **Next.js application** for a rental property m
 - **Loading & Error States**: Skeleton loaders for data fetching and graceful `error.tsx` fallbacks.
 
 ### Tenant Features
-- **Auth Flows**: Registration and login forms with Zod validation and inline error messages.
+- **Auth Flows**: Registration and login forms with validation error messages.
 - **Rental Request Flow**: Interactive form/modal to submit a request. If approved, a clear "Proceed to Payment" CTA.
 - **Payment Integration**: Seamless redirect to **Stripe Checkout** or **SSLCommerz** gateway. Dedicated `/payment/success` and `/payment/cancel` pages with clear UI feedback.
 - **Tenant Dashboard**: View rental request history (with status badges: Pending, Approved, Rejected, Active), payment history table, and a form to leave reviews after completion.
@@ -79,7 +79,7 @@ RentNest is a modern, responsive **Next.js application** for a rental property m
 ```text
 [Register/Login] → [Browse Properties] → [View Details] 
        ↓
-[Submit Request Form (Zod Validation)] → [Wait for Approval UI]
+[Submit Request Form (Validation)] → [Wait for Approval UI]
        ↓
 [Approved: "Pay Now" CTA] → [Stripe/SSLCommerz Redirect]
        ↓
