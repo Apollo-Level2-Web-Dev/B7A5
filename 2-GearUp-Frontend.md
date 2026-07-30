@@ -35,7 +35,7 @@ GearUp is a modern, responsive **Next.js application** for a sports and outdoor 
 - **Loading & Error States**: Skeleton loaders for data fetching and graceful `error.tsx` fallbacks.
 
 ### Customer Features
-- **Auth Flows**: Registration and login forms with Zod validation and inline error messages.
+- **Auth Flows**: Registration and login forms with validation error messages.
 - **Rental Order Flow**: Interactive checkout UI to select rental dates and confirm items. 
 - **Payment Integration**: Seamless redirect to **Stripe Checkout** or **SSLCommerz** gateway. Dedicated `/payment/success` and `/payment/cancel` pages with clear UI feedback.
 - **Customer Dashboard**: View rental order history (with status badges), payment history table, and a form to leave reviews after the gear is returned.
